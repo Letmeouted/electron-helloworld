@@ -1,0 +1,31 @@
+{
+  "name": "ElectronDemo03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dist": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "com.NewElectron.app",
+    "mac": {
+      "target": [
+        "zip",
+        "dmg"
+      ]
+    },
+    "win": {
+      "target": [
+        "zip",
+        "nsis"
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.0.1",
+    "electron-builder": "^22.9.1"
+  }
+}
