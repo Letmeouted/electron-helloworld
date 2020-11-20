@@ -4,7 +4,7 @@ helloworld-Electron
 
 
 
-如果有需要，请git本项目
+如果有需要，请git本项目（仅是为了测试）
 
 <h1>1.在window下打开cmd命令框</h1>
 
@@ -17,6 +17,8 @@ cnpm install //等待安装完成所有依赖
 # 3.运行
 
 electron .
+
+![image-20201120095433384](C:\Users\Cubicise\AppData\Roaming\Typora\typora-user-images\image-20201120095433384.png)
 
 # 4.打包
 
@@ -32,9 +34,9 @@ npm run dist // 最后便可完成打包
 
 2.cnpm install electron-builder --save-dev
 
-3.npm run dist
+3.npm run dist //打包完成后会在你的项目目录下生成一个dist文件夹（如下图所示）
 
-
+![image-20201120095200218](C:\Users\Cubicise\AppData\Roaming\Typora\typora-user-images\image-20201120095200218.png)
 
 # 注：package.json当中的配置如下
 
